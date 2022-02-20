@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/main.js" defer></script>
+    <title>Cubo Atlas</title>
+</head>
+<body onload="updateTable()">
+    <header>
+        <h1>Tabela de Recordes</h1>
+    </header>
+    <main>
+        <button type="button" class="button purple mobile" id="cadastrarRecord">Cadastrar Record</button>
+        <table id="tableRecord" class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Record</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Record</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome" id="nome" required>
+                    <input type="text" class="modal-field" placeholder="Record" id="record" required>
+                    <input type="date" class="modal-field" placeholder="Data" id="date" required>
+                    <input type="time" class="modal-field" placeholder="Hora" id="time" required>
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green" id="save">Salvar</button>
+                    <button class="button purple" onclick="closeModal">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
