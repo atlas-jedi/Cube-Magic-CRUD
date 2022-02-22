@@ -16,15 +16,15 @@ Este é um projeto no qual foi usado puramente Javascript.
 
 ### 1 - Esta é a página inicial.
 
-![Homepage image](https://raw.githubusercontent.com/atlas-jedi/Cube-Magic-CRUD/images/home.png)
+![Homepage image](https://raw.githubusercontent.com/atlas-jedi/Cube-Magic-CRUD/main/images/home.png)
 
 ### 2 - Ao clicar em Cadastrar Record, irá aparecer este Modal.
 
-![New Record](https://raw.githubusercontent.com/atlas-jedi/Cube-Magic-CRUD/images/newRecord.png)
+![New Record](https://raw.githubusercontent.com/atlas-jedi/Cube-Magic-CRUD/main/images/newRecord.png)
 
 ### 3 - Simples de Editar e Excluir.
 
-![Edit and Delete](https://raw.githubusercontent.com/atlas-jedi/Cube-Magic-CRUD/images/editDelete.png)
+![Edit and Delete](https://raw.githubusercontent.com/atlas-jedi/Cube-Magic-CRUD/main/images/editDelete.png)
 
 
   ## Autor
